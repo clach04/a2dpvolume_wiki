@@ -22,6 +22,10 @@
 Caution: There are copies of this app being sold or redistributed with ads. Do not use these copies! Make sure you get the real version on the play store by developer JimRoal? (https://play.google.com/store/search?q=JimRoal&c=apps). My software is free, open source, and no ads. I create it for my own use and give it away for free, no strings attached. It is just a hobby for me.
 Using the A2DP Volume app
 
+* Use an Android bar code scanner from your Android device to scan this QR code
+![](http://jimroal.com/exe/QR.png)
+* Follow the instructions when the download complete to install the launch the application
+
 This manual represents the latest version of the A2DP Volume application. If you have an older version, some of the features below may not be supported, or may work differently.
 Installation
 
