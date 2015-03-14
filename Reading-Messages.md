@@ -36,13 +36,13 @@ A2DP Volume can use any text-to-speech (TTS) engine for reading text messages (S
 = If you have any helpful information... =
 ... please post to this wiki.  Your information can be valuable to others.  I only have Droid 1, Droid 2, Droid 3, and Droid Bionic to develop on.  I also use the emulator of course.  My only Bluetooth devices are Motorola T605, Motorola HF850, GoGrove, and a Monoprice A2DP receiver. There are hundreds of other devices out there.  If you have found ways to get it working please let others know here.  Thanks.
 
-Note: Don't comment here if you think you fund a bug or need a reply to a question.  If you have a question email [mailto:jroal@comcast.net me].  If it is a defect, report it on the [http://code.google.com/p/a2dpvolume/issues/list issues list].
+Note: Don't comment here if you think you fund a bug or need a reply to a question.  If you have a question email.  If it is a defect, report it on the https://github.com/jroal/a2dpvolume/issues issues list.
 
 Accessing the edit device screen:
 This screen shows the result from a short press on a device in the list.  Here you can select to edit this device or delete this device from the list.  The OK button just returns you to the app main screen.
 
-http://jimroal.com/A2DPScreens/Image2.png
+![](http://jimroal.com/A2DPScreens/Image2.png)
 
 The screen below shows where to set the enable reading text messages.  When you check that box, more dialog will appear below as shown.  There you can set the delay and the stream.
 
-http://jimroal.com/A2DPScreens/EditDevice3.png
+![](http://jimroal.com/A2DPScreens/EditDevice3.png)
