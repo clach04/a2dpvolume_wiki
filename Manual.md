@@ -27,13 +27,9 @@ Installation
 
 Requires Android 4.03 or higher. Version 2.9.8 and below required Android 2.2 and most of those versions are still available on the downloads page. If you have an older device and you go to the Play Store you can still download 2.9.8.
 
-    Use an Android bar code scanner from your Android device to scan this QR code 
-
-    Follow the instructions when the download complete to install the launch the application 
-
 Make sure you set your task killer to ignore this application.
 
-If you would like this app to do something else please submit an enhancement request here: http://code.google.com/p/a2dpvolume/issues/list Some people have given the app a 1 star rating for it not having features they wanted. Please do not give the app a bad rating for not having the features you wanted!
+If you would like this app to do something else please submit an enhancement request here: https://github.com/jroal/a2dpvolume/issues Some people have given the app a 1 star rating for it not having features they wanted. Please do not give the app a bad rating for not having the features you wanted!
 
 You can also just search Android Market for A2DP Volume
 Overview
