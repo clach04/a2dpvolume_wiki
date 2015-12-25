@@ -14,7 +14,7 @@ Some devices will connect, disconnect, reconnect a couple times.  This causes A2
 
 If the problem persists, try increasing the delay time between device connecting and volume adjusting up.  I find 12s or so to give consistent results but it really depends on your mobile device and the Bluetooth device.  Results vary. 
 
-Another issue is a volume warning message on some devices.  My Motorola devices do this.  One time after boot when you try to adjust media volume up an audio warning message blocks the adjustment until you acknowledge it.  Very annoying.  I have not found a way around this other than to not reboot.  Luckily my MAXX goes for months without needing a reboot.
+Another issue is a volume warning message on some devices.  My Motorola devices do this.  One time after boot when you try to adjust media volume up an audio warning message blocks the adjustment until you acknowledge it.  Very annoying.  I have not found a way around this other than to not reboot.  Luckily my MAXX goes for months without needing a reboot.  You might also try this: http://www.dvorak.org/blog/2014/06/09/how-to-disable-android-high-volume-warning-nannyware/
 
 = My music won't start playing when commanded from Bluetooth device =
 
