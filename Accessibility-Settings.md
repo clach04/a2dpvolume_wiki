@@ -11,11 +11,13 @@ After you install A2DP volume and get all your devices set up, make sure you ena
 
 ![](http://jimroal.com/A2DPScreens/preferences2b.png)
 
-Back out of the preferences so they take effect.  Now go to each device and check the "enable reading text messages?" checkbox.
+The screen above shows both "enable reading text messages" and "enable reading notification messages" checked. This can result in messages being read twice. Normally if you want to read both SMS and other notifications, you would just use the "enable reading notification messages" and depend on the SMS notification to be read.  The old SMS reader directly reads the SMS message.  The newer notification reader uses accessibility features to read the notifications.  
+
+Back out of the preferences with the Android back button so they take effect.  Now go to each device and check the "enable reading text messages?" checkbox.
 
 ![](http://jimroal.com/A2DPScreens/EditDevice1b.png)
 
-Do this for each device that you want to have messages read while connected.  
+Do this for each device that you want to have messages read while connected.  Devices are listed in the main A2DP Volume screen. Bluetooth devices must first be paired and the "find devices" button in A2DP Volume run to list the devices.  Click a device name and select "edit" to configure settings for that device.
 
 ## Set up the apps for accessibility in A2DP Volume 
 
@@ -27,11 +29,11 @@ You will see a list of all the apps installed on the device.  This includes syst
 
 ![](http://jimroal.com/A2DPScreens/accessibilityapps.png)
 
-Check the box next to the apps of your choice.  Be careful not to have silly thing happen such as checking A2DP Volume itself or car mode.
+Check the box next to the apps of your choice.  Be careful not to have silly things happen such as checking A2DP Volume itself or car mode. These can cause infinite loops.
 
 ## Set up accessibility service in Android 
 
-Now go to Android settings.  Each manufacturer has a slightly different look but find "accessibility" settings.
+Now go to Android settings.  Each manufacturer has a slightly different look but find "accessibility" settings. A Motorola device is shown below.
 
 ![](http://jimroal.com/A2DPScreens/accessibilitysettings1.png)
 
