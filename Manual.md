@@ -114,7 +114,8 @@ Since this feature utilized the accessibility framework within Android, you must
 When a notification comes in, and you have connected to a device (A2DP Volume shows connected) the text that is briefly shown in the notification bar will be read to you. The text that is shown varies by app. For more information and detailed instructions, go here: https://code.google.com/p/a2dpvolume/wiki/Accessibility_Settings
 
 It is up to the apps to determine what they put in notifications. Hangouts for instance will put the text of the first unread message in the notification but subsequent messages from that sender will get rolled up into the sender name and the number of unread messages. For instance, the first unread message might say "Joe Smith: hi". The next message Joe sends will be shown as "Joe Smith: 2 new messages". Skype will put the text of every message in the notification.
-Retrieving Location
+
+## Retrieving Location
 
 After your device has disconnected a Bluetooth connection a location will be stored (if you configured it to do so above). The location will also be captured when Car Mode is exited in Android (where supported). Now you can click the Location button and see the location that was captured. It opens as a map URL. This can be viewed many ways. Google maps will open and show the link. You can also use a browser. I like to use GPS Status (free application on Android Market market://search?q=pname:com.eclipsim.gpsstatus2 ). This gives you flexibility in how you use the captured location data.
 
@@ -129,19 +130,25 @@ If you have disabled any location services you may not get a decent location in 
 Long press of a device in the list will open a dialog showing details about that device. It also has a button called Location. Clicking that button will open up the last captured location file for that specific device. If the file has not been created, a file not found error will show. This way you don't lose the location of any device because a new device connected later. The file opens in a browser and shows details about the location data. It also has hyperlinks to open the location data in your favorite app that accepts location data (such as maps or GPS Status). You can bookmark that file location and place it on your home screen (use the bookmarks widget in Android) for convenience.
 
 There is also an A2DP Volume Widget. Place the widget on your home screen. A single click of the widget will show the last captured location of the most recently disconnected device.
-Database
+
+
+## Database
 
 There is a utility in the options menu to export the database to the SD card as XML or SQLite database. I found this in an example and decided to implement it. There is an import feature as well. This assumes that you exported earlier and it looks in the export directory defined int he application for the file name also defined by the application. It can only import a SQLite database that was created by the application.
 
 If you just want to start over, you can delete the entire database using the Delete Data in the options menu.
 
 Devices in the list on the main screen can be edited or deleted using a short press on the device name.
-Service
+
+
+## Service
 
 The service is the part of the program that runs in the background and responds to Bluetooth connect and disconnect events. When the service is running the old media volume will be captured and the media volume will be adjusted on Bluetooth connect based on the device that connected and your settings for that device. On disconnect the media volume will be restored and the location will be captured. If the service is not running, none of this will happen. There is a button on the main screen to start and stop the service. If the button says "Start Service" then the service is not currently running. If the button says "Stop Service" then the service is currently running. If you configured your preferences to start at boot then the service automatically starts when the phone is finished booting up.
 
 Android manages it's memory by closing applications that are not currently being viewed by the user. This can kill the service too. If you see a notification that the service has started when you did not just start the service, this is what happened. In order to prevent this, select the "Notify in Foreground". This will place an icon on the status bar which makes the service act as an active task. This prevents the other processes from stopping it in most cases. It is still possible in extreme cases that the service could get stopped. By default this is disabled in the preferences.
-Widget
+
+
+## Widget
 
 The widget can be used as a shortcut to view the last stored location. In order to place the widget on the home screen, do the following:
 
@@ -149,7 +156,7 @@ The widget can be used as a shortcut to view the last stored location. In order 
 *    A list of widgets is displayed. On some devices you may have a few categories of widgets. Select "Android Widgets" if you have more that one.
 *    Select "A2DP Volume" widget. The widget will now be placed where you long pressed. 
 
-Caveats
+## Caveats
 
 *    If you plan to use the text message reader, you must first enable it in the preferences. You must ALSO enable it for each device. Different phones and Bluetooth devices act differently. You will need to try each of the SMS stream settings (in preferences) until you find one that works best. If none work for you, please post an issue with details about your phone and device details. 
 
