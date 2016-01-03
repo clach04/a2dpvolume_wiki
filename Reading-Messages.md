@@ -4,17 +4,21 @@
 
 A2DP Volume can use any text-to-speech (TTS) engine for reading text messages (SMS) and Google Talk messages.  This requires several things to work:
 
- # You must have a TTS engine installed.  Some common ones are Pico and eSpeak.  I use Pico and have good results.
- # That TTS engine must be initialized and have downloaded the latest speech data.  This happens automatically in most cases.  You can test for this in Android by going to [menu button] then [voice input and output settings].  Click on text-to-speech settings.  At the top click [listen to example].  If this does not work, A2DP Volume won't either.
- # You must have a default TTS engine selected.  If you have more than one TTS engine installed, and you don't have a default selected, it will pop up a dialog asking you for which one to use rather than actually reading anything.
- # You must enable reading text messages in A2DP Volume.  This is done by checking this box in the preferences in A2DP Volume.
- # You must ALSO select read text messages for each device.  This is done by selecting the device in the list and clicking edit in the popup dialog.
- # You must select a valid stream.  This is done at the bottom of the preferences menu.  It is called SMS stream.  Depending on your devices, some may not work at all so you will need to try all 3 until you find the one that works best.  You can select the stream in the edit device screen.  Click a device in your list and then click edit when the dialog pops up.
- # In the devices you would like TTS to read messages, you need to enable it in the edit device screen.  Make sure you save when done editing!  The save button is at the bottom of this screen.
- * **Note: You must have TTS enabled in BOTH the preferences and EACH of the devices you want to read text messages while connected.**
+* You must have a TTS engine installed.  Some common ones are Pico and eSpeak.  I use Google or Pico and have good results.
+* That TTS engine must be initialized and have downloaded the latest speech data.  This happens automatically in most cases.  You can test for this in Android by going to [menu button] then [voice input and output settings].  Click on text-to-speech settings.  At the top click [listen to example].  If this does not work, A2DP Volume won't either.
+* You must have a default TTS engine selected.  If you have more than one TTS engine installed, and you don't have a default selected, it will pop up a dialog asking you for which one to use rather than actually reading anything.
+* You must enable reading text messages in A2DP Volume.  This is done by checking this box in the preferences in A2DP Volume. 
+![](http://jimroal.com/A2DPScreens/A2DPVolume7.png)
+
+* You must ALSO select read text messages for each device.  This is done by selecting the device in the list and clicking edit in the popup dialog.
+![](http://jimroal.com/A2DPScreens/editdevice1b.png)
+
+* You must select a valid stream (music stream selected above).  This is done at the bottom of the preferences menu.  It is called SMS stream.  Depending on your devices, some may not work at all so you will need to try all 3 until you find the one that works best.  You can select the stream in the edit device screen.  Click a device in your list and then click edit when the dialog pops up.
+* In the devices you would like TTS to read messages, you need to enable it in the edit device screen.  Make sure you save when done editing!  The save button is at the bottom of this screen.
+* **Note: You must have TTS enabled in BOTH the preferences and EACH of the devices you want to read text messages while connected.**
 
 ## If it still does not work
- * Reboot your device.
+ * Reboot your device. Sometimes the accessibility settings don't take effect until after a boot.
  * If you use Handscent: Handscent => Settings => Application Settings => Default Messaging Application = Disable.  See comment below.  If you have other apps installed that intercept SMS they may have a similar issue.
  * Make sure you are watching the Android device screen while trying to read the first text.  If any dialogs pop up, make sure you select a default before clicking OK.    It is common for more than one TTS engine to be installed on your device and if a default is not selected, it will just sit and wait until you select one.  Obviously, don't try this while driving!  Make sure you get it working before you drive anywhere.
  * Make sure you have a default TTS engine selected and working.
