@@ -7,4 +7,4 @@ Here are the basic steps to get the app working for you.
 
 That will get basic volume control, location capture, and the other features shown the the edit device screens started.  If you wan the app to read notifications or texts, go here: https://github.com/jroal/a2dpvolume/wiki/Reading-Messages and here https://github.com/jroal/a2dpvolume/wiki/Accessibility-Settings
 
-Read the https://github.com/jroal/a2dpvolume/wiki/Manual[full manual] for more settings and details.
+Read the [full manual](https://github.com/jroal/a2dpvolume/wiki/Manual) for more settings and details.
