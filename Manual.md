@@ -2,23 +2,6 @@
 
 #User Manual
 
-    Using the A2DP Volume app
-    Installation
-    Overview
-        Menu Buttons
-        Main Screen Buttons
-        Edit Device Dialog Box
-    Usage
-        Basic use
-        Setting up devices
-        Preferences
-        Reading Notifications (Accessibility Service)
-        Retrieving Location
-        Database
-        Service
-        Widget
-        Caveats
-
 Caution: There are copies of this app being sold or redistributed with ads. Do not use these copies! Make sure you get the real version on the play store by developer JimRoal? (https://play.google.com/store/search?q=JimRoal&c=apps). My software is free, open source, and no ads. I create it for my own use and give it away for free, no strings attached. It is just a hobby for me.
 Using the A2DP Volume app
 
@@ -112,7 +95,7 @@ There are several preferences for the user to set.
 *    Enable Reading Text Messages. This will enable the text message (SMS) reader feature. This feature will read the text message over the audio stream using Google Text To Speech (TTS) services. You must has a TTS service installed for this to work. There are several TTS applications on the Android Market for free. Pico TTS or eSpeak TTS for instance. When you enable this feature A2DP Volume will test for a TTS service being available and ask you to install one if not. Enabling this feature here just prepares A2DP Volume to read SMS. You must also set up the devices you want this feature to work on individually. For more info on this feature see http://code.google.com/p/a2dpvolume/wiki/Reading_SMS
 *    Enable reading notification messages. This feature allows the app to read out certain messages from the notification bar. You MUST have A2DP Volume enabled in the Android accessibility services for this to work. When a new notification shows up on the notification bar, A2DP Volume will read it out loud. See details below, and here https://code.google.com/p/a2dpvolume/wiki/Accessibility_Settings 
 
-If you don't want to use this feature you can uncheck this preference. You do not need to unselect all apps in the "apps for accessibility". Also, you can turn this OFF in Android accessibility settings.
+>If you don't want to use this feature you can uncheck this preference. You do not need to unselect all apps in the "apps for accessibility". Also, you can turn this OFF in Android accessibility settings.
 
 *    Hide Volume Pop-up. When A2DP Volume adjusts volumes a user interface is shown so you can see the adjustment being made. Some users complained about this feature so I added this setting to hide it if you like.
 *    GPS Location Listener Timeout. This sets the maximum time the location services (all of them) will run looking for a better location fix. After this time, the location listeners will give up and turn OFF. This is done for 2 reasons. The most important reason being that after too long you are not likely near your car anymore. The other being to conserve the battery.
