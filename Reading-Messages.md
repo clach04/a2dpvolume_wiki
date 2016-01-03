@@ -18,24 +18,13 @@ A2DP Volume can use any text-to-speech (TTS) engine for reading text messages (S
  * If you use Handscent: Handscent => Settings => Application Settings => Default Messaging Application = Disable.  See comment below.  If you have other apps installed that intercept SMS they may have a similar issue.
  * Make sure you are watching the Android device screen while trying to read the first text.  If any dialogs pop up, make sure you select a default before clicking OK.    It is common for more than one TTS engine to be installed on your device and if a default is not selected, it will just sit and wait until you select one.  Obviously, don't try this while driving!  Make sure you get it working before you drive anywhere.
  * Make sure you have a default TTS engine selected and working.
- * Go into {{{[manage applications]}}} in Android.  Select your TTS engines and clear defaults.  Then test the TTS engine again as described above.  You will need to select a default again.
+ * Go into [manage applications] in Android.  Select your TTS engines and clear defaults.  Then test the TTS engine again as described above.  You will need to select a default again.
  * Different devices work with different streams.  Try each of the TTS streams to see which one if any work for you.  This is a configuration in each device in A2DP Volume. Generally A2DP devices use the music stream.  If your device also supports hands free calling you can use the voice call stream.  Try each one.  Make sure to stop and restart the service when you change this configuration. 
  * For reading notification make sure you set up the accessibility here: https://github.com/jroal/a2dpvolume/wiki/Accessibility-Settings
  * If all else fails, uninstall and reinstall A2DP Volume
 
-= Known working configurations =
- * Droid 3 (Android 2.3.4) with Motorola T605 car kit: Use the Pico TTS engine with any of the 3 streams.  Voice call stream uses the Bluetooth hands free stream (mono).  Music stream will send to the stereo output.  Alarm stream will use the phones speaker.
-
- * Droid 2 (Android 2.3.3) with Motorola T605 car kit: Use the Pico TTS engine with any of the 3 streams.  Voice call stream uses the Bluetooth hands free stream (mono).  Music stream will send to the stereo output.  Alarm stream will use the phones speaker.
-
- * Droid X (Android 2.2) with Motorola T605 car kit: Use the Pico TTS engine with any of the 3 streams.  Voice call stream uses the Bluetooth hands free stream (mono).  Music stream will send to the stereo output.  Alarm stream will use the phones speaker.
-
- * Droid Bionic (Android 2.3.3 and 4.04) with Motorola T605 car kit: Use the Pico TTS engine with any of the 3 streams.  Voice call stream uses the Bluetooth hands free stream (mono).  Music stream will send to the stereo output.  Alarm stream will use the phones speaker.
-
- * Motorola Xoom WiFi (Android 4.1) with Motorola T605 car kit: There are some issues with Jelly Bean overall though.  Media stream only.
-
 = If you have any helpful information... =
-... please post to this wiki.  Your information can be valuable to others.  I only have Droid 1, Droid 2, Droid 3, and Droid Bionic to develop on.  I also use the emulator of course.  My only Bluetooth devices are Motorola T605, Motorola HF850, GoGrove, and a Monoprice A2DP receiver. There are hundreds of other devices out there.  If you have found ways to get it working please let others know here.  Thanks.
+... please post to this wiki.  Your information can be valuable to others.  I only have Motorola phones and a Lenovo tablet to develop on.  I also use the emulator of course.  My only Bluetooth devices are Motorola T605, Mercedes sedan, and a Monoprice A2DP receiver. There are hundreds of other devices out there.  If you have found ways to get it working please let others know here.  Thanks.
 
 Note: Don't comment here if you think you fund a bug or need a reply to a question.  If you have a question email.  If it is a defect, report it on the https://github.com/jroal/a2dpvolume/issues issues list.
 
