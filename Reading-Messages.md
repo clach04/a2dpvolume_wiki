@@ -11,7 +11,7 @@ A2DP Volume can use any text-to-speech (TTS) engine for reading text messages (S
  # You must ALSO select read text messages for each device.  This is done by selecting the device in the list and clicking edit in the popup dialog.
  # You must select a valid stream.  This is done at the bottom of the preferences menu.  It is called SMS stream.  Depending on your devices, some may not work at all so you will need to try all 3 until you find the one that works best.  You can select the stream in the edit device screen.  Click a device in your list and then click edit when the dialog pops up.
  # In the devices you would like TTS to read messages, you need to enable it in the edit device screen.  Make sure you save when done editing!  The save button is at the bottom of this screen.
- * Note: You must have TTS enabled in BOTH the preferences and EACH of the devices you want to read text messages while connected.
+ * **Note: You must have TTS enabled in BOTH the preferences and EACH of the devices you want to read text messages while connected.**
 
 ==If it still does not work ==
  * Reboot your device.
@@ -20,6 +20,7 @@ A2DP Volume can use any text-to-speech (TTS) engine for reading text messages (S
  * Make sure you have a default TTS engine selected and working.
  * Go into {{{[manage applications]}}} in Android.  Select your TTS engines and clear defaults.  Then test the TTS engine again as described above.  You will need to select a default again.
  * Different devices work with different streams.  Try each of the TTS streams to see which one if any work for you.  This is a configuration in each device in A2DP Volume. Generally A2DP devices use the music stream.  If your device also supports hands free calling you can use the voice call stream.  Try each one.  Make sure to stop and restart the service when you change this configuration. 
+ * For reading notification make sure you set up the accessibility here: https://github.com/jroal/a2dpvolume/wiki/Accessibility-Settings
  * If all else fails, uninstall and reinstall A2DP Volume
 
 = Known working configurations =
