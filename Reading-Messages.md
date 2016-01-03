@@ -1,6 +1,6 @@
 #How to get the text message reader working.
 
-= A2DP Volume and TTS =
+## A2DP Volume and TTS
 
 A2DP Volume can use any text-to-speech (TTS) engine for reading text messages (SMS) and Google Talk messages.  This requires several things to work:
 
@@ -13,7 +13,7 @@ A2DP Volume can use any text-to-speech (TTS) engine for reading text messages (S
  # In the devices you would like TTS to read messages, you need to enable it in the edit device screen.  Make sure you save when done editing!  The save button is at the bottom of this screen.
  * **Note: You must have TTS enabled in BOTH the preferences and EACH of the devices you want to read text messages while connected.**
 
-==If it still does not work ==
+## If it still does not work
  * Reboot your device.
  * If you use Handscent: Handscent => Settings => Application Settings => Default Messaging Application = Disable.  See comment below.  If you have other apps installed that intercept SMS they may have a similar issue.
  * Make sure you are watching the Android device screen while trying to read the first text.  If any dialogs pop up, make sure you select a default before clicking OK.    It is common for more than one TTS engine to be installed on your device and if a default is not selected, it will just sit and wait until you select one.  Obviously, don't try this while driving!  Make sure you get it working before you drive anywhere.
@@ -23,7 +23,7 @@ A2DP Volume can use any text-to-speech (TTS) engine for reading text messages (S
  * For reading notification make sure you set up the accessibility here: https://github.com/jroal/a2dpvolume/wiki/Accessibility-Settings
  * If all else fails, uninstall and reinstall A2DP Volume
 
-= If you have any helpful information... =
+## If you have any helpful information... 
 ... please post to this wiki.  Your information can be valuable to others.  I only have Motorola phones and a Lenovo tablet to develop on.  I also use the emulator of course.  My only Bluetooth devices are Motorola T605, Mercedes sedan, and a Monoprice A2DP receiver. There are hundreds of other devices out there.  If you have found ways to get it working please let others know here.  Thanks.
 
 Note: Don't comment here if you think you fund a bug or need a reply to a question.  If you have a question email.  If it is a defect, report it on the https://github.com/jroal/a2dpvolume/issues issues list.
