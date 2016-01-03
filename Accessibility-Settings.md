@@ -2,7 +2,7 @@
 
 # Introduction 
 
-Version 2.10.0 and up of A2DP Volume implemented a new feature to read notifications while connected.  This new feature uses Android accessibility functionality to gain access to notifications from apps the user selects.  Below is the instructions to get this working.
+Version 2.10.0 and up of A2DP Volume implemented a new feature to read notifications while connected.  This new feature uses Android accessibility functionality to gain access to notifications from apps the user selects.  Android has these accessibility features to support handicapped people, such as blind people.  A2DP Volume takes advantage of these features to read messages. Below is the instructions to get this working.
 
 # Details 
 
@@ -46,3 +46,5 @@ Slide the switch at the top to ON.
 # Caveats 
 
 If you remove an app from the list in the apps for accessibility, you will need to go back to the Android accessibility settings and disable then re-enable A2DP Volume for the changes to take effect.
+
+Sometimes the device needs to be rebooted for these accessibility settings to take effect.
