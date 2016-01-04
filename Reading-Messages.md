@@ -1,4 +1,4 @@
-#How to get the text message reader working.
+#How to get the text and notifications message reader working.
 
 ## A2DP Volume and TTS
 
