@@ -2,19 +2,19 @@
 
 This page explains how to add localizations to A2DP Volume, or any Android app actually.
 
-= Introduction =
+= Introduction 
 
-Android handles localization of text strings by using localized XML files.  When an Android app is first created, a folder is also created in the {{{res}}} folder called values.  The values folder is where the default {{{strings.xml}}} file is created.  This file is basically a 2-column table.  The first column is for the variable name and the second column has the string associated with that name.  Anytime the app refers to that variable, the string will be inserted in its place.  Here is an example of one row from the XML:
+Android handles localization of text strings by using localized XML files.  When an Android app is first created, a folder is also created in the `res` folder called values.  The values folder is where the default 'strings.xml' file is created.  This file is basically a 2-column table.  The first column is for the variable name and the second column has the string associated with that name.  Anytime the app refers to that variable, the string will be inserted in its place.  Here is an example of one row from the XML:
 
-{{{<string name="ListName">Bluetooth Geräte</string>}}}
+'<string name="ListName">Bluetooth Geräte</string>'
 
-The variable name is after the {{{name=}}} and the actual string ins between the {{{> <}}} brackets.
+The variable name is after the 'name=' and the actual string ins between the '> <' brackets.
 
-Adding another language is just a matter of creating another {{{strings.xml}}} file in a localization folder.  For instance, German would be in the {{{values-de}}} folder.  More details about Android localization can be found here:
+Adding another language is just a matter of creating another {{{strings.xml}}} file in a localization folder.  For instance, German would be in the 'values-de' folder.  More details about Android localization can be found here:
 http://developer.android.com/guide/topics/resources/localization.html
 
 
-= Creating localized strings using Localization Files Editor =
+= Creating localized strings using Localization Files Editor 
 
 The best tool I have found for managing localized strings the [http://help.eclipse.org/helios/index.jsp?topic=%2Forg.eclipse.sequoyah.localization.android.help%2Ftopics%2Fr_localization-string-editor.html Localization Files Editor] in Eclipse.  It opens all the strings.xml files together and shows each language side-by-side.  Creating another language is just a matter of inserting another column.  The easiest way to do this is by using it's translate column feature.  This will attempt to translate the strings to the desired language using Google Translate.  These translations are not very good and should not be used.  However, it does automatically create the right directories and strings.xml file for you.  Now you can just replace the auto translated strings with the correct ones and save.  Below is a screen shot of what this looks like.
 
