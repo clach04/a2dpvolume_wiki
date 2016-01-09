@@ -18,7 +18,7 @@ http://developer.android.com/guide/topics/resources/localization.html
 
 The best tool I have found for managing localized strings the [http://help.eclipse.org/helios/index.jsp?topic=%2Forg.eclipse.sequoyah.localization.android.help%2Ftopics%2Fr_localization-string-editor.html Localization Files Editor] in Eclipse.  It opens all the strings.xml files together and shows each language side-by-side.  Creating another language is just a matter of inserting another column.  The easiest way to do this is by using it's translate column feature.  This will attempt to translate the strings to the desired language using Google Translate.  These translations are not very good and should not be used.  However, it does automatically create the right directories and strings.xml file for you.  Now you can just replace the auto translated strings with the correct ones and save.  Below is a screen shot of what this looks like.
 
-![](http://jimroal.com/A2DPScreens/Translating.png)
+image::http://jimroal.com/A2DPScreens/Translating.png
 
 Here is how you use it:
 # navigate to the default strings.xml file in the projects res/values folder.
