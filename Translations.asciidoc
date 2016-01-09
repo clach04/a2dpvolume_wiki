@@ -21,9 +21,9 @@ image::http://jimroal.com/A2DPScreens/AndroidStudioLanguageEditor1.png[]
 
 image::http://jimroal.com/A2DPScreens/AndroidStudioLanguageEditor2.png[]
 
-= Creating localized strings using Localization Files Editor 
+= Creating localized strings using Eclipse Localization Files Editor 
 
-The best tool I have found for managing localized strings the [http://help.eclipse.org/helios/index.jsp?topic=%2Forg.eclipse.sequoyah.localization.android.help%2Ftopics%2Fr_localization-string-editor.html Localization Files Editor] in Eclipse.  It opens all the strings.xml files together and shows each language side-by-side.  Creating another language is just a matter of inserting another column.  The easiest way to do this is by using it's translate column feature.  This will attempt to translate the strings to the desired language using Google Translate.  These translations are not very good and should not be used.  However, it does automatically create the right directories and strings.xml file for you.  Now you can just replace the auto translated strings with the correct ones and save.  Below is a screen shot of what this looks like.
+The best tool I have found for managing localized strings in Eclipse is the [http://help.eclipse.org/helios/index.jsp?topic=%2Forg.eclipse.sequoyah.localization.android.help%2Ftopics%2Fr_localization-string-editor.html Localization Files Editor] in Eclipse.  It opens all the strings.xml files together and shows each language side-by-side.  Creating another language is just a matter of inserting another column.  The easiest way to do this is by using it's translate column feature.  This will attempt to translate the strings to the desired language using Google Translate.  These translations are not very good and should not be used.  However, it does automatically create the right directories and strings.xml file for you.  Now you can just replace the auto translated strings with the correct ones and save.  Below is a screen shot of what this looks like.
 
 image::http://jimroal.com/A2DPScreens/Translating.png[]
 
@@ -46,56 +46,56 @@ image::http://jimroal.com/A2DPScreens/Notepad.png[]
 = Handling arrays 
 Arrays themselves are not too bad to deal with.  They are just like any other string except then also have a list of items like this:
 
-{{{<string-array name="gpsDistance_items">}}}
-        {{{<item>2</item>}}}
+'<string-array name="gpsDistance_items">'
+        '<item>2</item>'
 
-        {{{<item>5</item>}}}
+        '<item>5</item>'
 
-        {{{<item>10</item>}}}
+        '<item>10</item>'
 
-        {{{<item>15</item>}}}
+        '<item>15</item>'
 
-        {{{<item>20</item>}}}
+        '<item>20</item>'
 
-       {{{<item>30</item>}}}
+       '<item>30</item>'
 
-{{{</string-array>}}}
+'</string-array>'
 
 Android list preferences require 2 synchronized arrays.  One is for the text shown to the user and the other is for the actual item that gets selected when the user selects that row.  
 
 Here are the items:
-{{{<string-array name="gpsDistance">}}}
+'<string-array name="gpsDistance">'
 
-  {{{<item>2 m</item>}}}
+  '<item>2 m</item>'
 
-  {{{<item>5 m</item>}}}
+  '<item>5 m</item>'
 
-  {{{<item>10 m</item>}}}
+  '<item>10 m</item>'
 
-  {{{<item>15 m</item>}}}
+  '<item>15 m</item>'
 
-  {{{<item>20 m</item>}}}
+  '<item>20 m</item>'
 
-  {{{<item>30 m</item>}}}
+  '<item>30 m</item>'
 
-{{{</string-array>}}}
+'</string-array>'
 
 ... and here is the 2nd array with the actual selections:
-{{{<string-array name="gpsDistance_items">}}}
+'<string-array name="gpsDistance_items">'
 
-  {{{<item>2</item>}}}
+  '<item>2</item>'
 
-  {{{<item>5</item>}}}
+  '<item>5</item>'
 
-  {{{<item>10</item>}}}
+  '<item>10</item>'
 
-  {{{<item>15</item>}}}
+  '<item>15</item>'
 
-  {{{<item>20</item>}}}
+  '<item>20</item>'
 
-  {{{<item>30</item>}}}
+  '<item>30</item>'
 
-{{{</string-array>}}}
+'</string-array>'
 
 This is handled this way to the 2nd array is consistent across all languages as needed by the app software to make use of the selection.  In the example above the user is shown the top array items but when they click an item the same row number from the bottom list is sent back to the app as the selection.  For instance, if the user selects 15 m (from the top array) the software will see 15 (from the bottom array).
 
@@ -103,22 +103,22 @@ When doing the translations into another language, the bottom array must stay ex
 
 The examples above show numbers.  Here is an example where both arrays contain strings.  
 
-{{{<string-array name="PrefsOtherIcons">}}}
+'<string-array name="PrefsOtherIcons">'
 
-  {{{<item>Auto</item>}}}
+  '<item>Auto</item>'
 
-  {{{<item>Kopfhörer</item>}}}
+  '<item>Kopfhörer</item>'
 
-{{{</string-array>}}}
+'</string-array>'
 
 
-{{{<string-array name="PrefsOtherIcons_items">}}}
+'<string-array name="PrefsOtherIcons_items">'
 
-  {{{<item>Car</item>}}}
+  '<item>Car</item>'
 
-  {{{<item>Headset</item>}}}
+  '<item>Headset</item>'
 
-{{{</string-array>}}}
+'</string-array>'
 
 This is from the German strings.xml file.  Notice that the top array has German strings but the bottom array has English.  The user would see only the top strings in the list but the software expects only default (English in this case) strings for performing operations.  When the user selects {{{Auto}}}, {{{Car}}} is sent to the app to be interpreted.  This way the app always uses only the default language so no special coding is needed.  
 
@@ -131,13 +131,13 @@ The other method would be to push the charges back to the GitHub server.  I will
 
 Start the first time by creating a local clone.  Instruction for that are on the A2DP Volume website in the source tab.  You will now have all the project files and the .hg repository locally.  Add only the files and folders you are planning to own using Mercurial add function.  Now when you push, only those files will go back to the repository on the server.
 
-If you push using Mercurial, you will need to follow these steps:
- # Pull the latest changes using Mercurial
- # Update your project using the update function in Mercurial
- # Open the project in Motodev or your editor and make your changes
+If you push using Git, you will need to follow these steps:
+ # Pull the latest changes using Git
+ # Update your project using the update function in Git
+ # Open the project in and make your changes
  # Save your changes
- # Commit changes using Mercurial
- # Push your changes back to the server using Mercurial
+ # Commit changes using Git
+ # Push your changes back to the server using Git.
 
 Alternatively you can:
  # Download the latest strings.xml file.
@@ -149,6 +149,8 @@ If you would like to add a language to this app please post an issue in the issu
  # Download the latest strings.xml file.
  # Change all the strings to the language of choice.
  # Attach the new strings.xml file to the issue to complete the translations.
+
+
 
 = Motodev 
 It was a free download from Motorola but they no longer support it.  After Google acquired Motorola they retired Motodev but luckily for us they open sourced it: https://android.googlesource.com/platform/tools/motodev/ .  Specifically, here is the localization files editor tool: https://android.googlesource.com/platform/tools/motodev/+/jb-mr2-release/src/plugins/android/src/com/motorola/studio/android/command/OpenStringEditor.java 
