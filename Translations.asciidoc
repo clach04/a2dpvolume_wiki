@@ -29,13 +29,13 @@ image::http://jimroal.com/A2DPScreens/Translating.png[]
 
 Here is how you use it:
 
- . navigate to the default strings.xml file in the projects res/values folder.
+ 1) navigate to the default strings.xml file in the projects res/values folder.
 
- . Right click on strings.xml and hover over open with.
+ 2) Right click on strings.xml and hover over open with.
 
 image::http://jimroal.com/A2DPScreens/LocalizationEditor.png[]
 
- . Navigate to other and then Localization Files Editor
+ 3) Navigate to other and then Localization Files Editor
 
 image::http://jimroal.com/A2DPScreens/LocalizationEditor2.png[]
 
@@ -134,12 +134,13 @@ The other method would be to push the charges back to the GitHub server.  I will
 Start the first time by creating a local clone.  Instruction for that are on the A2DP Volume website in the source tab.  You will now have all the project files and the .hg repository locally.  Add only the files and folders you are planning to own using Mercurial add function.  Now when you push, only those files will go back to the repository on the server.
 
 If you push using Git, you will need to follow these steps:
- # Pull the latest changes using Git
- # Update your project using the update function in Git
- # Open the project in and make your changes
- # Save your changes
- # Commit changes using Git
- # Push your changes back to the server using Git.
+
+ . Pull the latest changes using Git
+ . Update your project using the update function in Git
+ . Open the project in and make your changes
+ . Save your changes
+ . Commit changes using Git
+ . Push your changes back to the server using Git.
 
 Alternatively you can:
  # Download the latest strings.xml file.
