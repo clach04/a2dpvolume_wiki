@@ -143,9 +143,10 @@ If you push using Git, you will need to follow these steps:
  . Push your changes back to the server using Git.
 
 Alternatively you can:
- # Download the latest strings.xml file.
- # Change all the strings to the language of choice.
- # Attach the new strings.xml file to the issue to complete the translations.
+
+ . Download the latest strings.xml file.
+ . Change all the strings to the language of choice.
+ . Attach the new strings.xml file to the issue to complete the translations.
 
 = Can you help with translations? 
 If you would like to add a language to this app please post an issue in the issues list.  We work the issues in that list to create a release.  This can go very quickly by:
