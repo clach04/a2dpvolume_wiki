@@ -1,4 +1,4 @@
-#Instructions for creating translations
+* #Instructions for creating translations
 
 This page explains how to add localizations to A2DP Volume, or any Android app actually.
 
@@ -28,12 +28,12 @@ The best tool I have found for managing localized strings in Eclipse is the [htt
 image::http://jimroal.com/A2DPScreens/Translating.png[]
 
 Here is how you use it:
-# navigate to the default strings.xml file in the projects res/values folder.
-# Right click on strings.xml and hover over open with.
+. navigate to the default strings.xml file in the projects res/values folder.
+. Right click on strings.xml and hover over open with.
 
 image::http://jimroal.com/A2DPScreens/LocalizationEditor.png[]
 
-# Navigate to other and then Localization Files Editor
+ . Navigate to other and then Localization Files Editor
 
 image::http://jimroal.com/A2DPScreens/LocalizationEditor2.png[]
 
