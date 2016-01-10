@@ -5,6 +5,9 @@
 A2DP Volume can use any text-to-speech (TTS) engine for reading text messages (SMS) and Google Talk messages.  This requires several things to work:
 
 * You must have a TTS engine installed.  Some common ones are Pico and eSpeak.  I use Google or Pico and have good results.
+* Don't select "silence notifications" on the device you also want to hear notifications on.  The silence setting will stop the notifications.
+* Make sure no other app is silencing notifications.
+* Sony and some LG devices have broken the TTS engine.  I can't fix this.  When A2DP Volume tried to make the TTS data check on these devices A2DP Volume may crash because Sony and LG have removed the Android package that I need to call so it gets a null pointer exception.  Thank you Sony and LG.  
 * That TTS engine must be initialized and have downloaded the latest speech data.  This happens automatically in most cases.  You can test for this in Android by going to [menu button] then [voice input and output settings].  Click on text-to-speech settings.  At the top click [listen to example].  If this does not work, A2DP Volume won't either.
 * You must have a default TTS engine selected.  If you have more than one TTS engine installed, and you don't have a default selected, it will pop up a dialog asking you for which one to use rather than actually reading anything.
 * You must enable reading text messages in A2DP Volume.  This is done by checking this box in the preferences in A2DP Volume. 
