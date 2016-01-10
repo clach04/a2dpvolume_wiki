@@ -40,8 +40,8 @@ image::http://jimroal.com/A2DPScreens/LocalizationEditor.png[]
 image::http://jimroal.com/A2DPScreens/LocalizationEditor2.png[]
 
 = Creating localized strings using Notepad++ 
-Another way to do the translations is to edit the strings.xml file using an XML editor such as Notepad++.  You can download Notepad++ free here: http://notepad-plus-plus.org/download/v5.9.3.html
-Using Notepad++ would will need to know specifically where to edit, making sure you don't change the variable names.
+Another way to do the translations is to edit the strings.xml file using an XML editor such as Notepad++.  You can download Notepad++ free here: https://notepad-plus-plus.org/
+Using Notepad++ would will need to know specifically where to edit, making sure you don't change the variable names. Its generally best to open the original strings.xml file and then make a copy and edit the new strings.xml file.  Look at them side-by-side.  In order to understand what each string means, you can search for it in the code.
 
 image::http://jimroal.com/A2DPScreens/Notepad.png[]
 
@@ -122,7 +122,7 @@ The examples above show numbers.  Here is an example where both arrays contain s
 
 '</string-array>'
 
-This is from the German strings.xml file.  Notice that the top array has German strings but the bottom array has English.  The user would see only the top strings in the list but the software expects only default (English in this case) strings for performing operations.  When the user selects {{{Auto}}}, {{{Car}}} is sent to the app to be interpreted.  This way the app always uses only the default language so no special coding is needed.  
+This is from the German strings.xml file.  Notice that the top array has German strings but the bottom array has English.  The user would see only the top strings in the list but the software expects only default (English in this case) strings for performing operations.  When the user selects 'Auto', 'Car' is sent to the app to be interpreted.  This way the app always uses only the default language so no special coding is needed.  
 
 The hard part about arrays used for list items is there is no convention for what names are used for the 2 arrays.  In A2DP Volume I have used the convention of name1 for the localized list of items and name1_items for the selection items for the app (as you can see above).  When translating arrays for A2DP Volume, never edit the xxx_items arrays.  
 
