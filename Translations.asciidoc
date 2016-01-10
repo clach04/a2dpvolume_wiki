@@ -41,7 +41,7 @@ image::http://jimroal.com/A2DPScreens/LocalizationEditor2.png[]
 
 = Creating localized strings using Notepad++ 
 Another way to do the translations is to edit the strings.xml file using an XML editor such as Notepad++.  You can download Notepad++ free here: https://notepad-plus-plus.org/
-Using Notepad++ would will need to know specifically where to edit, making sure you don't change the variable names. Its generally best to open the original strings.xml file and then make a copy and edit the new strings.xml file.  Look at them side-by-side.  In order to understand what each string means, you can search for it in the code.
+Using Notepad++ would will need to know specifically where to edit, making sure you don't change the variable names. The strings are between the '> <'. Its generally best to open the original strings.xml file and then make a copy and edit the new strings.xml file.  Look at them side-by-side.  In order to understand what each string means, you can search for it in the code.
 
 image::http://jimroal.com/A2DPScreens/Notepad.png[]
 
