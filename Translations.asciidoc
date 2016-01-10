@@ -10,7 +10,7 @@ Android handles localization of text strings by using localized XML files.  When
 
 The variable name is after the 'name=' and the actual string ins between the '> <' brackets.
 
-Adding another language is just a matter of creating another {{{strings.xml}}} file in a localization folder.  For instance, German would be in the 'values-de' folder.  More details about Android Translations Editor can be found here:
+Adding another language is just a matter of creating another 'strings.xml' file in a localization folder.  For instance, German would be in the 'values-de' folder.  Those folders can be found here: https://github.com/jroal/a2dpvolume/tree/master/res for this project.  More details about Android Translations Editor can be found here:
 http://developer.android.com/guide/topics/resources/localization.html
 
 = Creating and editing using the Android Studio translations editor
