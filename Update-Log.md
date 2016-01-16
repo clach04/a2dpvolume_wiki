@@ -1,6 +1,7 @@
 #Major updates after V1.2.3.  
 
 For more details about the changes, see the change list http://code.google.com/p/a2dpvolume/source/list
+
 = 2.11.13 January 16 2016
   * Added Greek translations.
   * Added TTS check for devices not supporting TTS_check (Sony mostly).
