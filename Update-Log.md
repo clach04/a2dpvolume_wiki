@@ -1,8 +1,9 @@
 #Major updates after V1.2.3.  
 
-For more details about the changes, see the change list http://code.google.com/p/a2dpvolume/source/list
+For more details about the changes, see the change list https://github.com/jroal/a2dpvolume/commits/master
 
 = 2.11.13 January 16 2016
+  * Updated the help link to point to Github instead of Google Code since Google Code is now gone.
   * Added Greek translations.
   * Added TTS check for devices not supporting TTS_check (Sony mostly).
   * Other minor fixes.
