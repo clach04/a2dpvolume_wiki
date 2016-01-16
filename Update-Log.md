@@ -1,11 +1,15 @@
 #Major updates after V1.2.3.  
 
 For more details about the changes, see the change list http://code.google.com/p/a2dpvolume/source/list
+= 2.11.13 January 16 2016
+  * Added Greek translations.
+  * Added TTS check for devices not supporting TTS_check (Sony mostly).
+  * Other minor fixes.
 
-= 2.11.12 December 14 2014 =
+= 2.11.12 December 14 2014 
   * Fixed issue 193
 
-= 2.11.11 May 21 2014 =
+= 2.11.11 May 21 2014 
   * Fixed null pointer exception from app chooser when people would unselect everything.  Did not see this as a valid use case since you have the "Enable reading notification messages" preference as well as the enabling in accessibility to make it work.  No reason to ever unselect everything but apparently some people still did.
   * Fixed bug that allowed TTS to read messages even if device was configured not to.
 
