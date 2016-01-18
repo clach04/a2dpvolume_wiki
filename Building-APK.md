@@ -2,7 +2,7 @@ This project was converted to Android Studio V1.5 and Gradle in version 2.11.13.
 
 There is a missing file you need in the app folder called build.gradle.  You will need to create this file and set up the versions and dependencies as follows.
 
-'    apply plugin: 'com.android.application'
+`apply plugin: 'com.android.application'
 android {
 signingConfigs {
 config {
