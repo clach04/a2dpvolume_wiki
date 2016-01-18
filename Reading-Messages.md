@@ -2,6 +2,8 @@
 
 ## A2DP Volume and TTS
 
+Note: This app has not yet implemented changes for Android 5.0 to get this working again.  See details here: https://github.com/jroal/a2dpvolume/issues/197
+
 A2DP Volume can use any text-to-speech (TTS) engine for reading text messages (SMS) and Google Talk messages.  This requires several things to work:
 
 * You must have a TTS engine installed.  Some common ones are Pico and eSpeak.  I use Google or Pico and have good results.
