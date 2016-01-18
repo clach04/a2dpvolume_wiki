@@ -6,6 +6,7 @@ For more details about the changes, see the change list https://github.com/jroal
   * Updated the help link to point to Github instead of Google Code since Google Code is now gone.
   * Added Greek translations.
   * Added TTS check for devices not supporting TTS_check (Sony mostly).
+  * Changed project structure to Android Studio with Gradle (effects source code, not app behavior)
   * Other minor fixes.
 
 = 2.11.12 December 14 2014 
