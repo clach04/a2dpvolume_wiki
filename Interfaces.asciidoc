@@ -18,7 +18,7 @@ Here is a snippet from a test app that sends a message to be read by A2DP Volume
 				Intent i = new Intent();
 				i.setAction(IRun);
 				i.putExtra("message", "Test string");
-				a2dp.vol.chat.ContactListActivity.this.sendBroadcast(i);
+				this.sendBroadcast(i);
 
 
 It is recommended that you trim the string before sending.  Here is an example of that:
