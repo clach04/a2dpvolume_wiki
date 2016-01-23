@@ -5,7 +5,7 @@
 A2DP Volume has some intent broadcasters and receivers that can by used by other apps.
 
 == Text message TTS receiver interface 
- service.java has an intent receiver as follows:
+service.java has an intent receiver as follows:
  
  IntentFilter messageFilter = new IntentFilter("a2dp.vol.service.MESSAGE"); 
 
@@ -34,7 +34,7 @@ It is recommended that you trim the string before sending.  Here is an example o
 	}
 
 
- Also, make sure you send everything needed for the message to have proper context.  For instance, you should send the service name, the sender name, the subject, and the text as appropriate.  Also included any necessary pauses between them.  commas create a short pause.
+Also, make sure you send everything needed for the message to have proper context.  For instance, you should send the service name, the sender name, the subject, and the text as appropriate.  Also included any necessary pauses between them.  commas create a short pause.
 
 == Device connected/disconnected broadcasts 
 When A2DP Volume sees a device connect, it broadcasts and intent as follows:
