@@ -24,10 +24,8 @@ Here is a snippet from a test app that sends a message to be read by A2DP Volume
 It is recommended that you trim the string before sending.  Here is an example of that:
 
 
- private void sendText(String mText){
-		
-		final String str = mText.trim();
-		
+ private void sendText(String mText){		
+		final String str = mText.trim();	
 		final String IRun = "a2dp.vol.service.MESSAGE";
 		Intent i = new Intent();
 		i.setAction(IRun);
