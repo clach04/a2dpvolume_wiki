@@ -1,3 +1,5 @@
 Starting in version 2.12.2 the old accessibility method for reading notifications was replaced with the new notification listener service introduced in Android 4.3  This service works differently than the old accessibility service.
 
 Once you install A2DP Volume, go to your Android settings.  Select [sound & notification] -> [notification access].  Then find A2DP Volume in the list of apps.  It may be the only one listed.  Check the box nest to A2DP Volume.  Accept the dialog box that pops up.  Now you should be set.  Of course you also need to enable reading notification messages in the preferences of A2DP Volume, and again enable reading text messages in each device in A2DP Volume.  
+
+This feature uses the same apps list as the old accessibility feature did.  This means you need to select the menu in A2DP Volume (dots on top right), then [apps for accessibility].  Check all the apps you want notifications read for.  
