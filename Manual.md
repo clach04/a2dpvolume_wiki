@@ -105,11 +105,17 @@ There are several preferences for the user to set.
 
 Note: you must stop and restart the service if you made preference changes while the service was running. Don't make the changes while connected to a device since some of the changes will not take affect and the connected device will not be detected. Make preference changes before you have a device connection established.
 
-## Reading Notifications (Accessibility Service)
+## Reading Notifications (notification access in Android 4.3, app version 2.12.2 and up)
+
+Version 2.12.2 and up implemented the new notification listener service available in Android 4.3 and up.  In order to make the notification reader work, you must enable A2DP Volume in your Android notification settings.  Go to [settings] -> [sound & notification] -> [notification access] in the advanced section at the bottom.  Check the box next to A2DP Volume.  This will give A2DP Volume access to ready notifications.
+
+## Reading Notifications (old Accessibility Service, app version 2.11.12 and earlier)
 
 Version 2.10.0 and later added a feature that uses Android accessibility service to read out notifications from many apps while you are connected to a device. The apps can include anything you have installed on your device such as Gmail, Hangouts, Skype, K9 Mail, Android and Motorola email clients, and Google Keep reminders or any other app you set up in the configuration screen.
 
 Since this feature utilized the accessibility framework within Android, you must enable A2DP Volume in the accessibility settings menu in the Android settings. Disabling this feature is done in the same menu by turning OFF A2DP volume.
+
+### Notification Reading
 
 When a notification comes in, and you have connected to a device (A2DP Volume shows connected) the text that is briefly shown in the notification bar will be read to you. The text that is shown varies by app. For more information and detailed instructions, go here: https://code.google.com/p/a2dpvolume/wiki/Accessibility_Settings
 
