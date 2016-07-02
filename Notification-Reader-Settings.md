@@ -30,3 +30,11 @@ You will see a list of all the apps installed on the device.  This includes syst
 Check the box next to the apps of your choice.  Be careful not to have silly things happen such as checking A2DP Volume itself or car mode. These can cause infinite loops.
 
 
+## Android settings to enable notification reading
+
+Below is how you enable A2DP Volume to read notifications in Android settings.  A Nexus device is shown.  Other devices may have different settings menus.  
+![](http://jimroal.com/A2DPScreens/NotSettings1.png)
+
+![](http://jimroal.com/A2DPScreens/NotSettings2.png)
+
+![](http://jimroal.com/A2DPScreens/NotSettings3.png)
