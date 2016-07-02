@@ -33,8 +33,12 @@ Check the box next to the apps of your choice.  Be careful not to have silly thi
 ## Android settings to enable notification reading
 
 Below is how you enable A2DP Volume to read notifications in Android settings.  A Nexus device is shown.  Other devices may have different settings menus.  
+
+Select "Sound & Notification" from this menu.
 ![](http://jimroal.com/A2DPScreens/NotSettings1.png)
 
+Select "Notification Access" from this menu.
 ![](http://jimroal.com/A2DPScreens/NotSettings2.png)
 
+Check the box next to A2DP Volume to allow A2DP Volume to access the notifications which is required to enable reading them.
 ![](http://jimroal.com/A2DPScreens/NotSettings3.png)
