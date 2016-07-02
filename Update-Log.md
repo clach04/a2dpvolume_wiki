@@ -3,7 +3,11 @@
 For more details about the changes, see the change list https://github.com/jroal/a2dpvolume/commits/master
 
 = 2.12.3 ?
+
+
+= 2.12.3 July 1, 2016
   * Fixed issue 201 (I hope).  I was not able to duplicate this issue but the crash reports told a decent story.  My fix should take care of it.
+  * Modifications to the new notification reader system.  Still a work in progress though.
 
 = 2.12.1 and 2.12.2 June 13, 2016
   * Replaced old accessibility service with new notification listener.  Starting in Android 4.3 there is a new way to access notifications and the old way was deprecated.  At some point (apparently Android 5.0) they stopped supporting the old methods, breaking the notification reader.  
