@@ -29,7 +29,7 @@ A2DP Volume can use any text-to-speech (TTS) engine for reading text messages (S
  * Make sure you have a default TTS engine selected and working.
  * Go into [manage applications] in Android.  Select your TTS engines and clear defaults.  Then test the TTS engine again as described above.  You will need to select a default again.
  * Different devices work with different streams.  Try each of the TTS streams to see which one if any work for you.  This is a configuration in each device in A2DP Volume. Generally A2DP devices use the music stream.  If your device also supports hands free calling you can use the voice call stream.  Try each one.  Make sure to stop and restart the service when you change this configuration. 
- * For reading notification make sure you set up the accessibility here: https://github.com/jroal/a2dpvolume/wiki/Accessibility-Settings
+ * For reading notification make sure you set up the notification settings: https://github.com/jroal/a2dpvolume/wiki/Notification-Reader-Settings .  If using A2DP Volume 2.11 or older you need to set up the accessibility settings: https://github.com/jroal/a2dpvolume/wiki/Accessibility-Settings
  * If all else fails, uninstall and reinstall A2DP Volume
 
 ## If you have any helpful information... 
