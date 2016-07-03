@@ -6,6 +6,10 @@
 
 This Wiki covers a few tips and tricks for using A2DP Volume effectively.  It also covers how to use the app to fix problems with Android and Bluetooth device compatibility issues.
 
+= App crashes =
+
+With the introduction of Android Marshmallow (6.0) app permissions are handled differently.  You can now deny each permission for an app in the Android settings, apps, and then the app of interest.  A2DP Volume will crash if permissions are not granted.  Make sure all permissions for A2DP Volume are granted in Android app settings.  I will work on a better way to handle this.
+
 = Volume does not always adjust =
 
 Some devices will connect, disconnect, reconnect a couple times.  This causes A2DP Volume to engage several times very fast.  In the confusion an adjusted volume can be captured as last used.  I recommend not using the "Automatically remember last used media volume on disconnect" feature in the edit device screen.
