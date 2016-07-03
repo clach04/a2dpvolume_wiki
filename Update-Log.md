@@ -2,8 +2,11 @@
 
 For more details about the changes, see the change list https://github.com/jroal/a2dpvolume/commits/master
 
-= 2.12.3 ?
+= 2.12.4 ?
+  * Added a check when preferences are reloaded to see if the notification listener is enabled in Android settings.  If not, it will open the Android settings to the screen where you enable notification listeners.
 
+= 2.12.3 July 2, 2016
+  * Moved the processing of notifications into a new thread to improve stability.
 
 = 2.12.3 July 1, 2016
   * Fixed issue 201 (I hope).  I was not able to duplicate this issue but the crash reports told a decent story.  My fix should take care of it.
