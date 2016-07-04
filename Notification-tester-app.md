@@ -1,4 +1,4 @@
-I copied the LNotifications sample app and added the ability to invoke car mode for testing.  It is rough but can be useful.  Download the APK here: https://drive.google.com/open?id=0B2ZRdduGQB59RERxNzF1TEtKbzQ
+I copied the LNotifications sample app and added the ability to invoke car mode for testing.  It is rough but can be useful.  Download the APK here: https://drive.google.com/file/d/0B2ZRdduGQB59Vk84NnV2MXh2R28
 
 The way I use it is open the LNotifications app and invoke car mode.  Then you can use car mode in A2DP Volume to set up actions such as reading notifications.  This will put A2DP Volume in connected more with car mode settings.
 
