@@ -2,22 +2,22 @@
 
 For more details about the changes, see the change list https://github.com/jroal/a2dpvolume/commits/master
 
-= 2.12.4 ?
+= 2.12.4 July 16, 2016 (beta)
   * Added a check when preferences are reloaded to see if the notification listener is enabled in Android settings if the user also set the preference in A2DP Volume to enable reading notifications.  If not, it will open the Android settings to the screen where you enable notification listeners.
   * Working towards eliminating duplicate message reading.  This was found on Samsung S7.
   * Added Japanese language support
 
-= 2.12.3 July 2, 2016
+= 2.12.3 July 2, 2016 (alpha)
   * Moved the processing of notifications into a new thread to improve stability.
 
-= 2.12.3 July 1, 2016
+= 2.12.3 July 1, 2016 (alpha)
   * Fixed issue 201 (I hope).  I was not able to duplicate this issue but the crash reports told a decent story.  My fix should take care of it.
   * Modifications to the new notification reader system.  Still a work in progress though.
 
 = 2.12.1 and 2.12.2 June 13, 2016
   * Replaced old accessibility service with new notification listener.  Starting in Android 4.3 there is a new way to access notifications and the old way was deprecated.  At some point (apparently Android 5.0) they stopped supporting the old methods, breaking the notification reader.  
   * Changed the minimum Android version to API 19 (Android 4.4) due to incompatibility of new features with old versions. If you have a device with Android older than 4.4 than 2.11.13 is the end of updates on your device. 
-  * Finally got at least hangouts message reading working.  Other apps may not work right though.  Work in progress.  Released to Alpha for early testing.  2 versions here because fo strange behavior with Android Studio.
+  * Finally got at least hangouts message reading working.  Other apps may not work right though.  Work in progress.  Released to Alpha for early testing.  2 versions here because of strange behavior with Android Studio.
   
 = 2.11.13 January 16 2016
   * Updated the help link to point to Github instead of Google Code since Google Code is now gone.
