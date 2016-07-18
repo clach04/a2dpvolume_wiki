@@ -23,7 +23,7 @@ Do this for each device that you want to have messages read while connected.  De
 
 Now click on the preferences button while in the A2DP Volume main screen.  Click on "apps for notifications" in the menu. Note: this was previously called "apps for accessibility".
 
-![](http://jimroal.com/A2DPScreens/A2DPVolume.png)
+![](http://jimroal.com/A2DPScreens/A2DPVolume8.png)
 
 You will see a list of all the apps installed on the device.  This includes system apps as well as downloaded apps and other packages.  
 
