@@ -19,9 +19,9 @@ Back out of the preferences with the Android back button so they take effect.  N
 
 Do this for each device that you want to have messages read while connected.  Devices are listed in the main A2DP Volume screen. Bluetooth devices must first be paired and the "find devices" button in A2DP Volume run to list the devices.  Click a device name and select "edit" to configure settings for that device.
 
-## Set up the apps for accessibility in A2DP Volume 
+## Set up the apps for notifications in A2DP Volume 
 
-Now click on the preferences button while in the A2DP Volume main screen.  Click on "apps for accessibility" in the menu.
+Now click on the preferences button while in the A2DP Volume main screen.  Click on "apps for notifications" in the menu. Note: this was previously called "apps for accessibility".
 
 ![](http://jimroal.com/A2DPScreens/A2DPVolume8.png)
 
