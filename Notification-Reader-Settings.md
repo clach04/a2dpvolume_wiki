@@ -2,7 +2,7 @@ Starting in version 2.12.2 the old accessibility method for reading notification
 
 Once you install A2DP Volume, go to your Android settings.  Select [sound & notification] -> [notification access].  Then find A2DP Volume in the list of apps.  It may be the only one listed.  Check the box next to A2DP Volume.  Accept the dialog box that pops up.  Now you should be set.  Of course you also need to enable reading notification messages in the preferences of A2DP Volume, and again enable reading text messages in each device in A2DP Volume.  
 
-This feature uses the same apps list as the old accessibility feature did.  This means you need to select the menu in A2DP Volume (dots on top right), then [apps for accessibility].  Check all the apps you want notifications read for.  
+This feature uses the same apps list as the old accessibility feature did.  This means you need to select the menu in A2DP Volume (dots on top right), then [apps for notifications].  Check all the apps you want notifications read for.  
 
 Notification have become more complex.  Apps have significant flexibility on how they use them. A2DP Volume attempts to parse out the most useful bits.  Android made a field just for apps that want to read out the useful bit.  This field is called "tickerText".  A2DP volume looks for that field to be populated first.  If it's not, it looks for several other fields.  It then combines this info to read out.  Results will vary!  Some apps just don't work right at all so reading their messages will not be good.  A2DP Volume also attempts to prevent the same message reading multiple times.  However, this too is a challenge.  I tested with Hangouts primarily.  Gmail will read out only the sender and subject. I also tested with Skype.
 
