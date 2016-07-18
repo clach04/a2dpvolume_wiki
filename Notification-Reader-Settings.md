@@ -11,9 +11,9 @@ After you install A2DP volume and get all your devices set up, make sure you ena
 
 ![](http://jimroal.com/A2DPScreens/preferences2b.png)
 
-The screen above shows both "enable reading text messages" and "enable reading notification messages" checked. This can result in messages being read twice. Normally if you want to read both SMS and other notifications, you would just use the "enable reading notification messages" and depend on the SMS notification to be read.  The old SMS reader directly reads the SMS message.  The newer notification reader uses a notification listener to read the notifications.  
+The screen above shows both "enable reading text messages" and "enable reading notification messages" checked. This can result in messages being read twice if you were to also select your SMS app in the "apps for notifications" menu. If you use an app like Hangouts or Facebook Messenger for SMS and want both the SMS and other messages read, use the notification reader only and uncheck "enable reading text messages" above.
 
-Back out of the preferences with the Android back button so they take effect.  Now go to each device and check the "enable reading text messages?" checkbox.
+Back out of the preferences with the Android back button so they take effect.  Now go to each device and check the "enable reading text messages?" checkbox.  In the device specific settings, "enable reading text messages" actually enables the reading of any messages. The app preferences defines what messages could be read and device specific settings allows them to be read or not.  
 
 ![](http://jimroal.com/A2DPScreens/EditDevice1b.png)
 
