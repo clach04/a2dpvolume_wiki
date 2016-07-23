@@ -72,15 +72,16 @@ Allows the app to deliver its own input events (key presses, etc.) to other apps
 = Other =
 
 == Google Talk ==
-Several permissions were needed to read Google Talk messages since version 2.9.0 when that feature was implemented.
+ * Several permissions were needed to read Google Talk messages since version 2.9.0 when that feature was implemented.
 
 == SMS ==
-There are some permissions needed for reading SMS (text) messages for the integration of the SMS reader feature.
+ * There are some permissions needed for reading SMS (text) messages for the integration of the SMS reader feature.
 
 == Accessibility Service ==
-This is used in 2.10.0 and up for setting up the accessibility service to read notifications out while a device is connected.  It was then removed in 2.12.x and replace with the newer notification access feature.
+ * This is used in 2.10.0 and up for setting up the accessibility service to read notifications out while a device is connected.  It was then removed in 2.12.x and replace with the newer notification access feature.
 
 == Notification Access ==
-This is use by the notification reader feature to access the notifications.  You must enable this in Android settings!  When enabled, A2DP Volume can access all notifications that are posted.  A2DP Volume will only read the notifications from the apps you checked in "Apps for Notifications" settings in A2DP Volume.  It reads the notification data, attempts to find the useful parts, and reads those out over the sound stream you chose.  It does not store or use the notifications for anything else.  It does temporarily store a list of which apps you configured notifications for so it can tell if the received notification is redundant, which happens.  This is done to prevent reading out the same notification over and over.  This record is purged periodically.
+ * This is use by the notification reader feature to access the notifications.  You must enable this in Android settings!  When enabled, A2DP Volume can access all notifications that are posted.  A2DP Volume will only read the notifications from the apps you checked in "Apps for Notifications" settings in A2DP Volume.  It reads the notification data, attempts to find the useful parts, and reads those out over the sound stream you chose.  It does not store or use the notifications for anything else.  It does temporarily store a list of which apps you configured notifications for so it can tell if the received notification is redundant, which happens.  This is done to prevent reading out the same notification over and over.  This record is purged periodically.
+
 ----
 If you have any concerns about these permissions you can always browse the actual code and see how they are used.  This project is free, open source, and it has no ads.  Open source means that all the programming is open to view by anyone anytime right here on this website.
