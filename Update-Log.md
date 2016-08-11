@@ -6,6 +6,7 @@ For more details about the changes, see the change list https://github.com/jroal
   * Added a check when preferences are reloaded to see if the notification listener is enabled in Android settings if the user also set the preference in A2DP Volume to enable reading notifications.  If not, it will open the Android settings to the screen where you enable notification listeners.
   * Working towards eliminating duplicate message reading.  This was found on Samsung S7.
   * Added Japanese language support
+  * Fixed issue 216 (I hope).  Did some basic testing but have not thoroughly gone through all the code and tested in detail.
 
 = 2.12.3 July 2, 2016 (alpha)
   * Moved the processing of notifications into a new thread to improve stability.
