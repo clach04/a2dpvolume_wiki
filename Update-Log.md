@@ -17,7 +17,7 @@ For more details about the changes, see the change list https://github.com/jroal
 
 = 2.12.1 and 2.12.2 June 13, 2016
   * Replaced old accessibility service with new notification listener.  Starting in Android 4.3 there is a new way to access notifications and the old way was deprecated.  At some point (apparently Android 5.0) they stopped supporting the old methods, breaking the notification reader.  
-  * Changed the minimum Android version to API 19 (Android 4.4) due to incompatibility of new features with old versions. If you have a device with Android older than 4.4 than 2.11.13 is the end of updates on your device. 
+  * Changed the minimum Android version to API 19 (Android 4.4) due to incompatibility of new features with old versions. If you have a device with Android older than 4.4, then A2DP Volume 2.11.13 is the end of updates on your device. 
   * Finally got at least hangouts message reading working.  Other apps may not work right though.  Work in progress.  Released to Alpha for early testing.  2 versions here because of strange behavior with Android Studio.
   
 = 2.11.13 January 16 2016
